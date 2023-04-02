@@ -12,6 +12,7 @@ public class RegularExpProg {
         return data.substring(0,1).matches("[^"+specChar+"]");
     }
 
+    //Dummy way of controlling. We should control it another way. I will show it.
     public boolean doesContainOnlyWords(String data)
     {
         String regExpStr="";
@@ -21,6 +22,7 @@ public class RegularExpProg {
         return data.matches(regExpStr);
     }
 
+    //Dummy way of controlling. We should control it another way. I will show it.
     public boolean doesContainOnlyNumbers(String data)
     {
         String regExpStr="";

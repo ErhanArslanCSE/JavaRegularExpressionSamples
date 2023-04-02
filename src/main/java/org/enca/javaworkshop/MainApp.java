@@ -43,7 +43,4 @@ public class MainApp
         System.out.println("Does the word 1y33 has only number characters: "
                 +myTester.doesContainOnlyNumbers("1y33"));
     }
-
-
-
 }

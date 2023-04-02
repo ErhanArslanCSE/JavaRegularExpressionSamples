@@ -43,6 +43,10 @@ public class MainApp
         System.out.println("Does the word 1y33 has only number characters: "
                 +myTester.doesContainOnlyNumbers("1y33"));
 
+        System.out.println("Does the word 123dsa*dsad has length of 3 with any word characters: "
+                +myTester.doesContainOnlyWordsPro("123dsad*sad"));
+        System.out.println("Does the word 123dsadsad has length of 3 with any word characters: "
+                +myTester.doesContainOnlyWordsPro("123dsadsad"));
 
     }
 }

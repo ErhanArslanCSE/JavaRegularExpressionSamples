@@ -32,4 +32,9 @@ public class RegularExpProg {
         return data.matches(regExpStr);
     }
 
+    public boolean doesContainOnlyWordsPro(String data)
+    {
+        return data.matches("\\w{"+data.length()+"}");
+    }
+
 }

@@ -48,5 +48,17 @@ public class MainApp
         System.out.println("Does the word 123dsadsad has length of 3 with any word characters: "
                 +myTester.doesContainOnlyWordsPro("123dsadsad"));
 
+        System.out.println("does the value has a number format? "+ myTester.isPhoneFormat("123-4562-7899"));
+        System.out.println("does the value has a number format? "+ myTester.isPhoneFormat("123-4562.789"));
+        System.out.println("does the value has a number format? "+ myTester.isPhoneFormat("123-4562-78a"));
+
+        System.out.println("Catdsaduy8*".matches("[\\w]+"));
+        System.out.println("123-4567 185".matches("\\d{3}[ -]*\\d{4}[ -]*\\d{3}"));
+        System.out.println("123-4567185".matches("\\d{3}[ -]*\\d{4}[ -]*\\d{3}"));
+        System.out.println("123-4567     18511222".matches("\\d{3}[ -]*\\d{4}[ -]*\\d{3,6}"));
+
+        // Lets write a word starts with Mr. or Mrs. and continues with name and surname. There have to be a space between name and surname.
+
+        System.out.println("name control: "+myTester.nameSurnameControl("Mr. Erhan Arslan"));
     }
 }

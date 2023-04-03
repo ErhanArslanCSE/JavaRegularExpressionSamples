@@ -37,4 +37,13 @@ public class RegularExpProg {
         return data.matches("\\w{"+data.length()+"}");
     }
 
+    public boolean isPhoneFormat(String data)
+    {
+        return data.matches("\\d{3}[.-]\\d{4}[.-]\\d{3}");
+    }
+
+    public boolean nameSurnameControl(String data)
+    {
+        return data.matches("Mr(\\w)*[\\s](\\w{3,}[\\s]){2}");
+    }
 }
